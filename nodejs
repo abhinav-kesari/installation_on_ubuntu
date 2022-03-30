@@ -2,6 +2,7 @@
 #step to install nodejs 12 version 
 #https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
 
+#!/bin/bash
 sudo apt update -y
 cd ~
 curl -sL https://deb.nodesource.com/setup_12.x -o /tmp/nodesource_setup.sh
